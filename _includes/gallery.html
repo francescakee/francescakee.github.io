@@ -12,8 +12,8 @@
 
 <div id="carousel-links" style="display: none">
   {% for item in page.carousel %}
-  <a href="/assets/images/{{ item }}.jpg" title="{{ item | replace: '-',' '}}" data-gallery>
-      <img src="/assets/images/thumb/{{ item }}.jpg" alt="{{ item | replace: '-',' '}}">
+  <a href="/assets/images/{{ item }}.jpg" title="{{ item  | replace: '-large','' | replace: 'francesca-kee',''| replace: '-',' ' | capitalize }}" data-gallery>
+      <img src="/assets/images/thumb/{{ item }}.jpg" alt="{{ item  | replace: '-large','' | replace: 'francesca-kee',''| replace: '-',' ' | capitalize }}">
   </a>
   {% endfor %}
 </div>
@@ -22,8 +22,8 @@
 
 <div id="links">
     {% for item in page.thumbs %}
-    <a href="/assets/images/{{ item }}.jpg" title="{{ item | replace: '-',' '}}" data-gallery>
-        <img src="/assets/images/thumb/{{ item }}.jpg" alt="{{ item | replace: '-',' '}}">
+    <a href="/assets/images/{{ item }}.jpg" title="{{ item  | replace: '-large','' | replace: 'francesca-kee',''| replace: '-',' ' | capitalize }}" data-gallery>
+        <img src="/assets/images/thumb/{{ item }}.jpg" alt="{{ item  | replace: '-large','' | replace: 'francesca-kee',''| replace: '-',' ' | capitalize }}">
     </a>
     {% endfor %}
 </div>

@@ -1,28 +1,9 @@
-# The Slate theme
+# About
+## The Slate theme
 
 [![Build Status](https://travis-ci.org/pages-themes/slate.svg?branch=master)](https://travis-ci.org/pages-themes/slate) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-slate.svg)](https://badge.fury.io/rb/jekyll-theme-slate)
 
-*Slate is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/slate), or even [use it today](#usage).*
-
-![Thumbnail of slate](thumbnail.png)
-
-## Usage
-
-To use the Slate theme:
-
-1. Add the following to your site's `_config.yml`:
-
-    ```yml
-    theme: jekyll-theme-slate
-    ```
-
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
-
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
-
-
+*Slate is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/slate)*
 
 ## Customizing
 
@@ -65,28 +46,35 @@ If you'd like to change the theme's HTML layout:
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
 
-## Roadmap
 
-See the [open issues](https://github.com/pages-themes/slate/issues) for a list of proposed features (and known issues).
+### How to add and remove images
 
-## Project philosophy
+Look for the frontmatter in the index.html file you can add or remove images in tiles from adding or removing the names of the image in thumb array  and same goes for carousel. The thumb files should be stored in /assets/images/thumbs/ and actual image in /assets/images/ folder.
 
-The Slate theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+CAUTION: Take care of the spacing, indentation, and format when adding or removing the names from the array.
 
-## Contributing
+### site generation
 
-Interested in contributing to Slate? We'd love your help. Slate is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](CONTRIBUTING.md) for instructions on how to contribute.
+`_site` dir is generated when you run jekyll, it converts all the liquid-tags, frontmatter, markdown, scss of files into simple html, css which is recognized by the web browsers and puts them in the `_site` dir. As you can see there is a index.md in the root folder which contains three dashes at the top and bottom the content inside it is called frontmatter and inside it we have specified certain info about that page refer these pages to get familiar.
 
-### Previewing the theme locally
+### github pages and Jekyll
 
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/slate`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+To create a github-pages repo use the instructions given in this doc https://pages.github.com/ and for more information on jekyll refer this jekyll docs https://jekyllrb.com/docs/home/ .
 
-### Running tests
 
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` one before the test script will work.
+### preview a branch(different approach)
+If you want to download the branch run these commands (for linux terminal) <br />
+git clone https://github.com/username/reponame.git <br />
+cd reponame <br />
+git checkout master  `(for changing branch)`<br />
+
+To install required gem files you can either manually install all the required using `gem install` or use `bundle exec jekyll serve`<br />
+
+jekyll serve `(for Running jekyll)`<br />
+now open browser and go to [`localhost:4000`](http://localhost:4000) to see the website. <br />
+
+To push the changes:-<br />
+git add --all<br />
+git commit -m "commit message"<br />
+git push origin master
