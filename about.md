@@ -12,18 +12,22 @@ title: About
 I am an oil painter who came from Taiwan and lived and traveled to several US states and countries abroad.
 
 As an artist deeply inspired by the intricate relationships found in nature, my work encapsulates the essence of growth, transformation, and interconnectedness. In my piece, I sought to convey a poetic narrative that reflects the beauty and fragility of life.
-Themes and Inspirations
+
+### Themes and Inspirations
 
 My art often draws from the vibrant colors and textures present in nature. Growing up in Taiwan and have been living in U.S for more then 20 years, I was constantly surrounded by diverse flora and fauna. This rich environmental tapestry has profoundly influenced my aesthetic choices and thematic exploration. Each piece serves as a window into my perception of the world, inviting viewers to experience the nuances of daily life through an artistic lens.
 
 The choice of dancer, flowers and animals in my work symbolizes not only beauty but also the transient nature of existence. Flowers bloom and wither, while animals embody the cycle of metamorphosis. This interplay between permanence and impermanence is central to my artistic philosophy, reflecting my belief that every moment is worthy of acknowledgment and celebration.
-Educational Background
+
+### Educational Background
 
 I am a graduate of fine arts studies from University of Washington, honing my skills and developing a distinctive artistic voice that resonates with viewers. My education provided me with foundational techniques and theoretical insights, enabling me to explore various mediums and styles. Each artistic endeavor is an evolution of my learning process, merging traditional techniques with contemporary expressions.
-Artistic Process
+
+### Artistic Process
 
 In creating my work, I employ oil painting and Acrylic painting media and techniques. The styles including Realism and Abstraction. My process often begins with sketches inspired by my surroundings, which I then translate into larger canvases. Using vivid colors and textures, I aim to evoke emotions and provoke thought, challenging viewers to reflect on their own experiences and connections to nature.
-Conclusion
+
+### Conclusion
 
 Art is a powerful medium for storytelling and connection. Through my work, I aspire to inspire conversations about our environment, the significance of every living entity, and our role in nurturing the world around us. I invite you to join me on this journey, exploring the delicate dance of life, where flowers blooming, animals playing and people dancing in an eternal cycle of renewal and celebrating of life.
 
