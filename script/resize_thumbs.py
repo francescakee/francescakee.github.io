@@ -25,7 +25,8 @@ SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".tiff
 
 def make_thumb(src: Path, out_dir: Path) -> None:
     """Resize a single image and save it to out_dir with a -thumb suffix."""
-    dest_name = src.stem + "-thumb" + src.suffix
+    #dest_name = src.stem + "-thumb" + src.suffix
+    dest_name = src.stem + src.suffix
     dest = out_dir / dest_name
 
     with Image.open(src) as img:
@@ -64,14 +65,14 @@ def main() -> None:
         print("No supported images found.")
         return
 
-    # Group by source directory so each dir gets its own 'thumbs' subfolder
+    # Group by source directory so each dir gets its own 'thumb' subfolder
     by_dir: dict[Path, list[Path]] = {}
     for img in images:
         by_dir.setdefault(img.parent, []).append(img)
 
     total, failed = 0, 0
     for src_dir, files in by_dir.items():
-        out_dir = src_dir / "thumbs"
+        out_dir = src_dir / "thumb"
         out_dir.mkdir(exist_ok=True)
         print(f"\nProcessing {len(files)} image(s) in '{src_dir}' → '{out_dir}'")
 

@@ -60,7 +60,7 @@ def main() -> None:
 
     output = build_yaml_block("carousel", carousel_names)
     output += "\n\n"
-    output += build_yaml_block("thumb", thumb_names)
+    output += build_yaml_block("thumbs", thumb_names)
     output += "\n"
 
     if args.output:
